@@ -1,0 +1,91 @@
+#wrap{
+  width: 900px;
+  margin: 0 auto;
+}
+
+body{
+  background-color: #FFFFCC;
+  border: 40px solid #000000;
+  border-radius: 55px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+ul {
+  list-style: inside circle;
+  border: 2px dotted #000000;
+  padding: 15px;
+  }
+
+a:link {
+  color: #006699;
+  text-decoration: none;
+  }
+a:visited {
+    color: #000000;
+    }
+a:hover {
+  color: #9966FF;
+  text-decoration: underline;
+  } 
+img { 
+    border: 2px;
+    width: 150px;
+    height: 150px;
+    border-color: #000000;
+    }
+
+h1{
+  color: #006699;
+  text-align: center;
+  text-shadow: 1.2px 1.2px #000000;
+}
+
+p{
+  width: 800px;
+  text-align: center;
+  font-family: georgia;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 18px;
+  text-indent: 0px;
+}
+
+h2{
+  color: #006699;
+  text-align: left;
+  text-shadow: 1.2px 1.2px #000000; 
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url ('../fonts/nunito.ttf') format ('truetype');
+}
+ul{
+   text-align: left;
+   font: 18px "Nunito", Arial, helvetica, geneva, sans-serif;
+}
+.image: hover {
+   display: inline-block;
+   width: auto;
+   height: auto;
+   border: 2px solid #9966FF;
+}
+.image: visited {
+   display: inline-block;
+   width: auto;
+   height: auto;
+   border: 2px solid #000000;
+}
+.image: link {
+   display: inline-block;
+   width: auto;
+   height: auto;
+   border: 2px solid #006699;
+}
+
+
+
+
