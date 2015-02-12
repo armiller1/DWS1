@@ -61,29 +61,23 @@ h2{
 
 @font-face {
   font-family: "Nunito";
-  src: url ('../fonts/nunito.ttf') format ('truetype');
+  src:url('../fonts/nunito.ttf')format('truetype');
 }
 ul{
    text-align: left;
    font: 18px "Nunito", Arial, helvetica, geneva, sans-serif;
 }
-.image: hover {
-   display: inline-block;
-   width: auto;
-   height: auto;
-   border: 2px solid #9966FF;
+.image:hover {
+   display:inline-block;
+   width:150px;
+   height:150px;
+   border:2px solid #9966FF;
 }
-.image: visited {
-   display: inline-block;
-   width: auto;
-   height: auto;
-   border: 2px solid #000000;
-}
-.image: link {
-   display: inline-block;
-   width: auto;
-   height: auto;
-   border: 2px solid #006699;
+.image {
+   display:inline-block;
+   width:150px;
+   height:150px;
+   border:2px solid #000000;
 }
 
 
