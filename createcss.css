@@ -1,6 +1,6 @@
 #column1{
-  width: 90%;
-  margin: 0 auto;
+  width: 900px;
+  margin: 10 auto;
 }
 
 body{
@@ -11,14 +11,17 @@ body{
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  background-image:url("..images/bgimage.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 } 
 #column1{
    float: left;
-   width: 650px;
+   width: 500px;
    margin 10px;
    }
 #column2{
-   float:right;
+   float:top-right;
    width: 300px;
    margin: 10px;
 }    
