@@ -1,7 +1,28 @@
 #column1{
   width: 900px;
-  margin: 10 auto;
+  margin: 0% auto;
+  height:auto;
+  padding: 0%;
+  }
+#column2{
+  float: left;
+  width: 26%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+.gradient {
+   border-radius: 10px;
+   margin: 0% auto;
+   height: 15%;
+   background: linear-gradient(to bottom, #CCC 30%, #999 70%);
+   opacity: 35%;
+} 
+
+blockquote{
+   float: center;
+   width: 275px;
+   margin: 0 0 10px 10px;
+}   
 
 body{
   background-color: #FFFFCC;
@@ -14,17 +35,7 @@ body{
   background-image:url("..images/bgimage.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-} 
-#column1{
-   float: left;
-   width: 500px;
-   margin 10px;
-   }
-#column2{
-   float:top-right;
-   width: 300px;
-   margin: 10px;
-}    
+}     
 
 ul {
   list-style: inside circle;
@@ -58,7 +69,6 @@ h1{
 }
 
 p{
-  width: 800px;
   text-align: left;
   font-family: georgia;
   font-size: 18px;
