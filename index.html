@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang= "en">
 <head>
-<link rel="stylesheet" type="text/css" href="createcss.css">
-<meta charset="utf-8"/>
-<title>Maru Sushi Bar</title>
+   <link rel="stylesheet" type="text/css" href="createcss.css">
+   <meta charset="utf-8"/>
+   <title>Maru Sushi Bar</title>
+   <style> 
+      body {
+         width:960px;
+         font-family: Arial, Verdana, sans-serif;
+         color: #000000;
+      }
+         
+   </style>
 </head>
 <body>
-<div id="wrap">
-<h1>Welcome to Maru Sushi Bar</h1>
-<p>Thank you for joining us at Maru Sushi Bar, we have Japanese cuisine at competitive prices. We offer all you can eat sushi rolls for lunch and dinner, all made with the freshest seafood within over 50 miles and if you spend $50 in sushi rolls you will be given a complimentary mochi ice cream!</p>
-<p>We are #1 
-<q>Best sushi in town!</q>
-people are crazy over our sushi.</p>
+  <div id="wrap">
+  <h1>Welcome to Maru Sushi Bar</h1>
+  <p>Thank you for joining us at Maru Sushi Bar, we have Japanese cuisine at competitive prices. We offer all you can eat sushi rolls for lunch and dinner, all made with the freshest seafood within over 50 miles and if you spend $50 in sushi rolls you will be given a complimentary mochi ice cream!</p>
+  <p>We are #1 
+  <q>Best sushi in town!</q>
+  people are crazy over our sushi.</p>
 
 <div id="navigation">
     <ul>
@@ -27,6 +35,7 @@ people are crazy over our sushi.</p>
     <p>Lunch (11am-2pm): $19 per person</p>
     <p>Dinner (3pm-8pm): $24 per person</p>
     <p>SHARING IS NOT ALLOWED!</p>
+    <div id="menu">
     <ul>
         <li>CATERPILLAR ROLL <i>avocado, eel & cucumber</i></li>
         <li>ALASKAN ROLL <i>smoked salmon, cucumber, avocado & crab</i></li>
@@ -40,6 +49,7 @@ people are crazy over our sushi.</p>
         <li>PARK ROLL <i>crab meat, tuna, cucumber & avocado</i></li>
         <li>ICHIBAN ROLL <i>tuna, yellowtail, salmon, avocado wrapped with green soy pepper</i></li>
     </ul>
+    </div>
     <p id="orders"></p><h2>Individual Orders</h2>
     <p>If All You Can Eat is too much food to handle, you may always order each roll individually and only pay for what you are going to eat.</p>
     <ul>
@@ -86,9 +96,10 @@ people are crazy over our sushi.</p>
     <ul>
         <li>MOCHI ICE CREAM <i>chocolate, mango, strawberry, green tea, coffee, orange</i></li>
     </ul>
-
+    </div>
     
-    <p id="gallery"><h2>Gallery</h2>
+    <div id="sidebar">
+      <p id="gallery"><h2>Gallery</h2>
     <figure>
         <a class="image" href="Images/sushibarbig.jpg">   
         <img src="Images/sushibar.jpg"
@@ -121,8 +132,6 @@ people are crazy over our sushi.</p>
             Ice Cold Mochi
         </figcaption>
     </figure>
-
-</div>
 </div>
 </body>
 </html>
